@@ -1,0 +1,37 @@
+{
+  "name": "yumi",
+  "version": "0.1.0",
+  "description": "TODO",
+  "scripts": {
+    "format": "prettier --write \"packages/**/*.{ts,tsx}\" "
+  },
+  "author": "Innei",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^7.6.17",
+    "bcrypt": "^5.0.1",
+    "class-transformer": "0.4.0",
+    "class-validator": "0.13.1",
+    "nestjs-typegoose": "^7.1.38",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^14.17.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.5.6",
+    "ts-loader": "^8.3.0",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.2.4"
+  }
+}

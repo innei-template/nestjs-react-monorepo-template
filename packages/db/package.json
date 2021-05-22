@@ -1,0 +1,27 @@
+{
+  "name": "@yumi/db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "author": "Innei",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^7.6.17",
+    "@typegoose/auto-increment": "0.6.0",
+    "@typegoose/typegoose": "7.6.0",
+    "bcrypt": "^5.0.1",
+    "mongoose": "5.10.18",
+    "mongoose-lean-virtuals": "0.8.0",
+    "nestjs-typegoose": "^7.1.38"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0"
+  }
+}

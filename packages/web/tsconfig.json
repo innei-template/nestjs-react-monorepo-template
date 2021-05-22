@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "outDir": "dist",
+    "jsx": "react",
+    "target": "ES2020",
+    "esModuleInterop": true
+  }
+}
